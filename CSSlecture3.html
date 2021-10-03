@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Margin vs Padding</title>
-  <style>
-    .special{
-      height: 200px;
-      width: 300px;
-      padding: 18px;
-      border: 10px solid black;
-      margin: 20px;
-    }
-    .box1, .box2{
-      height: 100px;
-      width: 100px;
-    }
-    .box1{
-      margin: 30px;
-      background-color: aquamarine;
-    }
-    .box2{
-      padding: 30px;
-      background-color: blue;
-    }  
-
-  </style>
-</head>
-<body>
-  <div class="wapper">
-    <div class="box1">Box1</div>
-    <div class="box2">Box2</div>
-  </div>
-  <div class="special">
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit perferendis soluta fugit, blanditiis earum reiciendis, eligendi quae atque culpa facilis hic accusamus nam quos aliquid minus quibusdam, ducimus molestiae voluptas.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margin vs Padding</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .special {
+        height: 200px;
+        width: 300px;
+        padding: 18px;
+        border: 10px solid black;
+        margin: 20px;
+      }
+      .box1,
+      .box2 {
+        height: 100px;
+        width: 100px;
+      }
+      .box1 {
+        margin: 30px;
+        background-color: aquamarine;
+      }
+      .box2 {
+        padding: 30px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wapper">
+      <div class="box1">Box1</div>
+      <div class="box2">Box2</div>
+    </div>
+    <div class="special">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+      perferendis soluta fugit, blanditiis earum reiciendis, eligendi quae atque
+      culpa facilis hic accusamus nam quos aliquid minus quibusdam, ducimus
+      molestiae voluptas.
+    </div>
+  </body>
 </html>
